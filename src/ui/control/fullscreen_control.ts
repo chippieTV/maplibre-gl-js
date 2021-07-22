@@ -32,7 +32,7 @@ class FullscreenControl {
     constructor(options: Options) {
         this._fullscreen = false;
         if (options && options.container) {
-            if (options.container instanceof window.HTMLElement) {
+            if (options.container instanceof HTMLElement) {
                 this._container = options.container;
             } else {
                 warnOnce('Full screen control \'container\' must be a DOM element.');
@@ -83,7 +83,7 @@ class FullscreenControl {
 
     _setupUI() {
         const button = this._fullscreenButton = DOM.create('button', ((`maplibregl-ctrl-fullscreen mapboxgl-ctrl-fullscreen`)), this._controlContainer);
-        DOM.create('span', `maplibregl-ctrl-icon mapboxgl-ctrl-icon`, button).setAttribute('aria-hidden', true);
+        DOM.create('span', `maplibregl-ctrl-icon mapboxgl-ctrl-icon`, button).setAttribute('aria-hidden', "true");
         button.type = 'button';
         this._updateTitle();
         this._fullscreenButton.addEventListener('click', this._onClickFullscreen);
