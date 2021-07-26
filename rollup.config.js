@@ -19,7 +19,7 @@ export default [{
     // This is also where we do all of our source transformations: removing
     // flow annotations, transpiling ES6 features using buble, inlining shader
     // sources as strings, etc.
-    input: ['src/index.js', 'src/source/worker.js'],
+    input: ['src/index.ts', 'src/source/worker.ts'],
     output: {
         dir: 'rollup/build/maplibregl',
         format: 'amd',
