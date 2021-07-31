@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {createSymbolBucket} from '../../util/create_symbol_layer';
 import Tile from '../../../src/source/tile';
 import GeoJSONWrapper from '../../../src/source/geojson_wrapper';

@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import LineAtlas from '../../../src/render/line_atlas';
 
 test('LineAtlas', (t) => {

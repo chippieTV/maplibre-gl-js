@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import Hash from '../../../src/ui/hash';
 import window from '../../../src/util/window';
 import {createMap as globalCreateMap} from '../../util';

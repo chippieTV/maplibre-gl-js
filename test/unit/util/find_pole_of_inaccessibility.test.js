@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import Point from '../../../src/symbol/point';
 import findPoleOfInaccessibility from '../../../src/util/find_pole_of_inaccessibility';
 

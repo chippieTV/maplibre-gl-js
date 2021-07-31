@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import createStyleLayer from '../../../src/style/create_style_layer';
 import FillStyleLayer from '../../../src/style/style_layer/fill_style_layer';
 import {extend} from '../../../src/util/util';

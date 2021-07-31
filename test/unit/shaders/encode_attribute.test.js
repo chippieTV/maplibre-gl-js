@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {packUint8ToFloat} from '../../../src/shaders/encode_attribute';
 
 test('packUint8ToFloat', (t) => {

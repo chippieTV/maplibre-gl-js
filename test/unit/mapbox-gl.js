@@ -1,4 +1,4 @@
-import {test} from '../util/test';
+import test from 'ava';
 import mapboxgl from '../../src';
 
 test('mapboxgl', (t) => {

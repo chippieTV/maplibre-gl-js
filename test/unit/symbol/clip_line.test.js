@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import Point from '../../../src/symbol/point';
 import clipLine from '../../../src/symbol/clip_line';
 

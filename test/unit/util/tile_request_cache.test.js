@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {cacheGet, cachePut, cacheClose} from '../../../src/util/tile_request_cache';
 import window from '../../../src/util/window';
 import sinon from 'sinon';

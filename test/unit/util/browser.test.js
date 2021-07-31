@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import browser from '../../../src/util/browser';
 
 test('browser', (t) => {

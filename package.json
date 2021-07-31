@@ -38,6 +38,7 @@
     "vt-pbf": "^3.1.1"
   },
   "devDependencies": {
+    "@ava/typescript": "^1.1.1",
     "@babel/core": "^7.9.0",
     "@mapbox/gazetteer": "^4.0.4",
     "@mapbox/mapbox-gl-rtl-text": "^0.2.1",
@@ -77,7 +78,7 @@
     "@types/rollup-plugin-sourcemaps": "^0.4.2",
     "@types/selenium-webdriver": "^4.0.10",
     "@types/shuffle-seed": "^1.1.0",
-    "@types/sinon": "^7.5.2",
+    "@types/sinon": "^10.0.2",
     "@types/stylelint": "^9.10.1",
     "@types/supercluster": "^5.0.2",
     "@types/tape": "^4.13.0",
@@ -85,6 +86,7 @@
     "@typescript-eslint/eslint-plugin": "^4.10.0",
     "@typescript-eslint/parser": "^4.10.0",
     "address": "^1.1.2",
+    "ava": "^3.15.0",
     "babel-eslint": "^10.0.1",
     "babelify": "^10.0.0",
     "benchmark": "^2.1.4",
@@ -144,7 +146,7 @@
     "selenium-webdriver": "^4.0.0-alpha.5",
     "semver": "^5.5.0",
     "shuffle-seed": "^1.1.6",
-    "sinon": "^7.3.2",
+    "sinon": "^11.1.2",
     "source-map-explorer": "^2.5.1",
     "st": "^1.2.2",
     "stylelint": "^9.10.1",
@@ -154,6 +156,7 @@
     "tape": "^4.13.2",
     "tape-filter": "^1.0.4",
     "testem": "^3.0.0",
+    "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
   },
   "browser": {
@@ -190,6 +193,7 @@
     "lint-docs": "documentation lint src/index.js",
     "lint-css": "stylelint 'src/css/maplibre-gl.css'",
     "test": "run-s lint lint-css lint-docs test-unit",
+    "ava": "ava",
     "test-suite": "run-s test-render test-query test-expressions",
     "test-suite-clean": "find test/integration/{render,query, expressions}-tests -mindepth 2 -type d -exec test -e \"{}/actual.png\" \\; -not \\( -exec test -e \"{}/style.json\" \\; \\) -print | xargs -t rm -r",
     "test-unit": "cross-env build/run-tap --reporter classic --no-coverage test/unit",

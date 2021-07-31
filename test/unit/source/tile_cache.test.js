@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import TileCache from '../../../src/source/tile_cache';
 import {OverscaledTileID} from '../../../src/source/tile_id';
 

@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import CollisionFeature from '../../../src/symbol/collision_feature';
 import Anchor from '../../../src/symbol/anchor';
 import Point from '../../../src/symbol/point';

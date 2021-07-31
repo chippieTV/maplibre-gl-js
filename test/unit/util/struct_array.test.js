@@ -1,6 +1,6 @@
 // @flow
 
-import {test} from '../../util/test';
+import test from 'ava';
 import {StructArrayLayout3i6, FeatureIndexArray} from '../../../src/data/array_types';
 
 test('StructArray', (t) => {

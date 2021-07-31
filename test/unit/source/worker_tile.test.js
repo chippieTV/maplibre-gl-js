@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import WorkerTile from '../../../src/source/worker_tile';
 import Wrapper from '../../../src/source/geojson_wrapper';
 import {OverscaledTileID} from '../../../src/source/tile_id';

@@ -1,4 +1,4 @@
-import {test} from '../util/test';
+import test from 'ava';
 import browser from './util/browser';
 import {Origin} from 'selenium-webdriver';
 import {equalWithPrecision} from '../util';

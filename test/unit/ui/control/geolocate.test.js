@@ -1,4 +1,4 @@
-import {test} from '../../../util/test';
+import test from 'ava';
 import window from '../../../../src/util/window';
 import {createMap} from '../../../util';
 import GeolocateControl from '../../../../src/ui/control/geolocate_control';

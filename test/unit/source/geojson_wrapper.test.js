@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import Wrapper from '../../../src/source/geojson_wrapper';
 
 test('geojsonwrapper', (t) => {

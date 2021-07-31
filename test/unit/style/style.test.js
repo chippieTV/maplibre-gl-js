@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import assert from 'assert';
 import Style from '../../../src/style/style';
 import SourceCache from '../../../src/source/source_cache';

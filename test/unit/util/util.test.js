@@ -1,6 +1,6 @@
 // @flow
 
-import {test} from '../../util/test';
+import test from 'ava';
 
 import {easeCubicInOut, keysDifference, extend, pick, uniqueId, bindAll, asyncAll, clamp, wrap, bezier, endsWith, mapObject, filterObject, deepEqual, clone, arraysIntersect, isCounterClockwise, isClosedPolygon, parseCacheControl, uuid, validateUuid, nextPowerOfTwo, isPowerOfTwo} from '../../../src/util/util';
 import Point from '../../../src/symbol/point';

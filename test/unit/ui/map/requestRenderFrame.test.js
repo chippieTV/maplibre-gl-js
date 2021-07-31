@@ -1,4 +1,5 @@
-import {test} from '../../../util/test';
+// import test from 'ava';
+import test from 'ava';
 import {createMap} from '../../../util';
 
 test('Map#_requestRenderFrame schedules a new render frame if necessary', (t) => {

@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import Actor from '../../../src/util/actor';
 import WebWorker from '../../../src/util/web_worker';
 

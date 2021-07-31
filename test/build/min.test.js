@@ -1,4 +1,4 @@
-import {test} from '../util/test';
+import test from 'ava';
 import fs from 'fs';
 import path from 'path';
 import reference from '../../src/style-spec/reference/latest';

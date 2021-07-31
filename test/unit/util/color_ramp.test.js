@@ -1,5 +1,5 @@
 
-import {test} from '../../util/test';
+import test from 'ava';
 import {renderColorRamp} from '../../../src/util/color_ramp';
 import {createPropertyExpression} from '../../../src/style-spec/expression';
 

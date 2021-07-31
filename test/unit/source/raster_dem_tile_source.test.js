@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import RasterDEMTileSource from '../../../src/source/raster_dem_tile_source';
 import window from '../../../src/util/window';
 import {OverscaledTileID} from '../../../src/source/tile_id';

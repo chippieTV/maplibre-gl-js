@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import Point from '../../../src/symbol/point';
 import checkMaxAngle from '../../../src/symbol/check_max_angle';
 import Anchor from '../../../src/symbol/anchor';

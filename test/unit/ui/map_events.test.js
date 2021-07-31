@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {createMap} from '../../util';
 import simulate, {window} from '../../util/simulate_interaction';
 

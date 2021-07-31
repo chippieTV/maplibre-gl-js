@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import VectorTileSource from '../../../src/source/vector_tile_source';
 import {OverscaledTileID} from '../../../src/source/tile_id';
 import window from '../../../src/util/window';

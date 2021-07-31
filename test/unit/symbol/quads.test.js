@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {getIconQuads} from '../../../src/symbol/quads';
 
 test('getIconQuads', (t) => {

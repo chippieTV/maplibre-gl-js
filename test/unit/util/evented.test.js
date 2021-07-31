@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {Event, Evented} from '../../../src/util/evented';
 
 test('Evented', (t) => {

@@ -1,6 +1,6 @@
 // @flow
 
-import {test} from '../../util/test';
+import test from 'ava';
 import fs from 'fs';
 import path from 'path';
 import window from '../../../src/util/window';

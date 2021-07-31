@@ -1,6 +1,6 @@
 // @flow
 
-import {test} from '../../util/test';
+import test from 'ava';
 import {register, serialize, deserialize} from '../../../src/util/web_worker_transfer';
 
 import type {Serialized} from '../../../src/util/web_worker_transfer';

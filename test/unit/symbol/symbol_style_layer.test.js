@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import SymbolStyleLayer from '../../../src/style/style_layer/symbol_style_layer';
 import FormatSectionOverride from '../../../src/style/format_section_override';
 import properties from '../../../src/style/style_layer/symbol_style_layer_properties';

@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {mapObject} from '../../../src/util/util';
 import StyleLayerIndex from '../../../src/style/style_layer_index';
 

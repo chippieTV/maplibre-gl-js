@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import VertexBuffer from '../../../src/gl/vertex_buffer';
 import {StructArrayLayout3i6} from '../../../src/data/array_types';
 import Context from '../../../src/gl/context';

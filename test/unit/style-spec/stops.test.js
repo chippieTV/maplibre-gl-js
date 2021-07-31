@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {findStopLessThanOrEqualTo} from '../../../src/style-spec/expression/stops';
 
 test('findStopLessThanOrEqualTo', (t) => {

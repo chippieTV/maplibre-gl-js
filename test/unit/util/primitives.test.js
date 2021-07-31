@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {Aabb, Frustum} from '../../../src/util/primitives';
 import {mat4, vec3} from 'gl-matrix';
 

@@ -1,5 +1,4 @@
-import {test} from '../../../util/test';
-import window from '../../../../src/util/window';
+import test from 'ava';
 import Map from '../../../../src/ui/map';
 import Marker from '../../../../src/ui/marker';
 import DOM from '../../../../src/util/dom';

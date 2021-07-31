@@ -1,4 +1,4 @@
-import {test} from '../../../util/test';
+import test from 'ava';
 import {getIntersectionDistance} from '../../../../src/style/style_layer/fill_extrusion_style_layer';
 import Point from '../../../../src/symbol/point';
 

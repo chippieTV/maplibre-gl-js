@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import * as mapbox from '../../../src/util/mapbox';
 import config from '../../../src/util/config';
 import window from '../../../src/util/window';

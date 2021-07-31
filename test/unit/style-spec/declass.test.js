@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import declass from '../../../src/style-spec/declass';
 
 test('declass a style, one class', (t) => {

@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import Point from '../../../src/symbol/point';
 import PathInterpolator from '../../../src/symbol/path_interpolator';
 

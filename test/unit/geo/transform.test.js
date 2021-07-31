@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import Point from '../../../src/symbol/point';
 import Transform from '../../../src/geo/transform';
 import LngLat from '../../../src/geo/lng_lat';

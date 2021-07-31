@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import LngLat from '../../../src/geo/lng_lat';
 import MercatorCoordinate, {mercatorScale} from '../../../src/geo/mercator_coordinate';
 

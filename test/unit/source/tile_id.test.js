@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {CanonicalTileID, OverscaledTileID} from '../../../src/source/tile_id';
 
 test('CanonicalTileID', (t) => {

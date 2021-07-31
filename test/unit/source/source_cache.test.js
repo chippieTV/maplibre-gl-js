@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import SourceCache from '../../../src/source/source_cache';
 import {setType} from '../../../src/source/source';
 import Tile from '../../../src/source/tile';

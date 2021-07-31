@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {createFunction} from '../../../src/style-spec/function';
 import Color from '../../../src/style-spec/util/color';
 import Formatted from '../../../src/style-spec/expression/types/formatted';

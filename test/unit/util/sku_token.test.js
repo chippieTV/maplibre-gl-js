@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {createSkuToken, SKU_ID} from '../../../src/util/sku_token';
 
 test('sku token generation', (t) => {

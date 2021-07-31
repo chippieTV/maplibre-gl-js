@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {extend} from '../../../src/util/util';
 import window from '../../../src/util/window';
 import Map from '../../../src/ui/map';

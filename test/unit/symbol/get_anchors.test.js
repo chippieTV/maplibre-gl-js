@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import Point from '../../../src/symbol/point';
 import {getAnchors, getCenterAnchor} from '../../../src/symbol/get_anchors';
 

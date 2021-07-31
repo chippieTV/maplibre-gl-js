@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import diffStyles from '../../../src/style-spec/diff';
 
 test('diff', (t) => {

@@ -1,4 +1,4 @@
-import {test} from '../util/test';
+import test from 'ava';
 import browser from './util/browser';
 
 test("zooming", async t => {

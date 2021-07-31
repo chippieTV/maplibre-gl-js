@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import {default as createFilter, isExpressionFilter} from '../../../src/style-spec/feature_filter';
 
 import convertFilter from '../../../src/style-spec/feature_filter/convert';

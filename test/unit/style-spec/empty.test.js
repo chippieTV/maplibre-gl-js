@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import emptyStyle from '../../../src/style-spec/empty';
 import validateStyleMin from '../../../src/style-spec/validate_style.min';
 

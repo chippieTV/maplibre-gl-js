@@ -1,4 +1,4 @@
-import {test} from '../../../util/test';
+import test from 'ava';
 import migrate from '../../../../src/style-spec/migrate/v9';
 
 test('deref layers', (t) => {

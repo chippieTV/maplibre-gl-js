@@ -1,4 +1,4 @@
-import {test} from '../../util/test';
+import test from 'ava';
 import Camera from '../../../src/ui/camera';
 import Transform from '../../../src/geo/transform';
 import TaskQueue from '../../../src/util/task_queue';
