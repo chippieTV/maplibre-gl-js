@@ -3,10 +3,10 @@ import fs from 'fs';
 import colors from 'chalk';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { createRequire } from 'module';
+// import { createRequire } from 'module';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const require = createRequire(import.meta.url);
+// const require = createRequire(import.meta.url);
 
 export default function localizeURLs(style, port) {
     localizeStyleURLs(style, port);

@@ -4,9 +4,9 @@ import st from 'st';
 import {createServer} from 'http';
 import localizeURLs from './localize-urls';
 import { fileURLToPath } from 'url';
-import { createRequire } from 'module';
+// import { createRequire } from 'module';
 
-const require = createRequire(import.meta.url);
+// const require = createRequire(import.meta.url);
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default function () {

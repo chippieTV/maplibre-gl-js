@@ -1,6 +1,5 @@
 /* eslint-disable no-global-assign */
 /* eslint-disable import/no-commonjs */
-/* eslint-disable flowtype/require-valid-file-annotation */
 require = require("esm")(module);
 const {generateFixtureJson, getAllFixtureGlobs} = require('./lib/generate-fixture-json');
 const createServer = require('./lib/server');
