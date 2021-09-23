@@ -730,7 +730,9 @@ class Transform {
         mat4.scale(m, m, vec3.fromValues(1, 1, mercatorZfromAltitude(1, this.center.lat) * this.worldSize));
 
         this.projMatrix = m;
-        this.invProjMatrix = mat4.invert(mat4.create(), this.projMatrix);
+        this.invProjMatrix = mat4.invert(new Float64Array(16) as any, this.projMatrix);
+        // this.invProjMatrix = mat4.invert([] as any, this.projMatrix);
+        // this.invProjMatrix = mat4.invert(mat4.create(), this.projMatrix);
 
         // Make a second projection matrix that is aligned to a pixel grid for rendering raster tiles.
         // We're rounding the (floating point) x/y values to achieve to avoid rendering raster images to fractional
